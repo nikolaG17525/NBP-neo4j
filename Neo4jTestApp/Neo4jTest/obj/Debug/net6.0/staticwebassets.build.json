@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FV9fNr0TJbOZLifzAANAXCUrJ4R7BYVxVoFVpn3Rm9s=",
+  "Source": "Neo4jTest",
+  "BasePath": "_content/Neo4jTest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

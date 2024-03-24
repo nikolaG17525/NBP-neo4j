@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sakrij {
+  display: none;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 50px; /* Dodaje malu margina desno između elemenata liste */
+  align-self: center;
+}
+
+nav ul li button {
+  padding: 10px 10px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-size: 24px;
+}
+
+nav ul li button:hover {
+  border: 1px solid #535353;
+  cursor: pointer;
+}
+
+nav .admin-dugme {
+  position: fixed;
+  top: 0px;
+  right: 40px;
+  z-index: 999;
+  padding: 10px;
+  font-size: 24px;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+nav .admin-dugme:hover {
+  border: 1px solid #535353;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.hero-main-1,
+.hero-main-2 {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero-main-1 {
+  margin-top: 50px;
+
+  justify-content: space-between;
+}
+
+.hero-main-2 {
+  margin-top: 20px;
+}
+
+.red-tabele {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  font-size: 18px;
+}
+
+.red-tabele:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.red-utakmica {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  font-size: 18px;
+}
+
+.red-utakmica:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.red-utakmica p {
+  width: 160px;
+}
+
+.div-klub-igraci,
+.div-tabela-opis,
+.div-klub-strana {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.golovi-domacina,
+.golovi-gosta {
+  display: flex;
+  justify-content: center;
+}
+
+.ime-gosta {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.div-klub-strana select,
+.div-klub-igraci select,
+.dodaj-utakmicu-div select,
+.postavi-trenera-div-levi select,
+.obrisi-trenera-div select {
+  width: 150px; /* Širina select elementa */
+  padding: 10px; /* Unutrašnji prostor */
+  font-size: 14px; /* Veličina fonta */
+  border: 2px solid #ccc; /* Debljina i stil ivica */
+  border-radius: 5px; /* Zaobljenost ivica */
+  background-color: #f8f8f8; /* Boja pozadine */
+  color: #333; /* Boja teksta */
+}
+
+.div-klub-strana button,
+.div-klub-igraci button,
+.dodaj-utakmicu-div button,
+.postavi-trenera-div-desni button,
+.obrisi-trenera-div button {
+  padding: 10px;
+  margin-left: 84px;
+}
+
+.div-klub-strana button,
+.div-klub-igraci button,
+.dodaj-utakmicu-div button,
+.postavi-trenera-div-desni button:hover {
+  cursor: pointer;
+}
+
+.div-tabela-opis p {
+  font-size: 20px;
+}
+
+.dodaj-utakmicu-div .select-broj {
+  width: 100px;
+}
+
+.postavi-trenera-div,
+.obrisi-trenera-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.postavi-trenera-div-desni button:hover {
+  background-color: #fca130;
+}
+
+.dodaj-utakmicu-div button:hover {
+  background-color: #49cc90;
+}
+
+.obrisi-trenera-div button:hover {
+  background-color: #f93e3e;
+}
